@@ -28,16 +28,17 @@ const AboutSection = () => {
             )}
           >
             <div className="order-2 lg:order-1">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">About Centra</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">About DNA</h2>
               <p className="text-lg text-gray-700 mb-4">
-                Centra is a full-service digital marketing agency specializing in connecting brands 
-                with powerful digital voices. We create meaningful connections between businesses and 
-                their target audiences through strategic marketing campaigns.
+                 DNA Das and Associates is your dedicated digital marketing partner in the real estate industry. We
+ understand the unique challenges builders, brokers, and developers face in today's competitive market.
+ Our specialized approach combines industry expertise with cutting-edge digital strategies to drive
+ qualified leads, increase brand visibility, and accelerate sales.
               </p>
               <p className="text-lg text-gray-700 mb-6">
-                Founded by young entrepreneurs with fresh perspectives, our mission is to transform how brands communicate in the digital space. 
-                We combine data-driven insights with creative strategies to deliver exceptional results 
-                for our clients across various industries.
+                 With years of experience exclusively serving the real estate sector, we've helped hundreds of projects
+ achieve remarkable growth through targeted digital campaigns. From luxury residential developments to
+ commercial complexes, we know what works in real estate marketing.
               </p>
               
               <div className="grid grid-cols-2 gap-6 mb-8">
@@ -95,7 +96,7 @@ const AboutSection = () => {
                 <div className="absolute -right-4 -bottom-4 w-32 h-32 bg-centra-blue/10 rounded-lg"></div>
                 <div className="relative z-10 rounded-lg overflow-hidden shadow-xl">
                   <img 
-                    src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?q=80&w=2000&auto=format&fit=crop" 
+                    src="/lovable-uploads/urban-traffic-with-cityscape.jpg" 
                     alt="Centra Team" 
                     className="w-full h-auto"
                   />
@@ -104,7 +105,7 @@ const AboutSection = () => {
             </div>
           </div>
 
-          <div 
+          {/* <div 
             ref={founderRef}
             className={cn(
               "mt-20 transition-all duration-1000",
@@ -166,7 +167,7 @@ const AboutSection = () => {
                 </CardContent>
               </Card>
             </div>
-          </div>
+          </div> */}
 
           <div className="mt-16 text-center">
             <div className={cn(
@@ -176,9 +177,9 @@ const AboutSection = () => {
               <span className="font-semibold text-xl text-centra-blue">Learn more about our approach</span>
               <Move className="h-5 w-5 text-centra-blue" />
               <div className="mt-4 max-w-2xl mx-auto text-gray-600">
-                <p className="mb-3">At Centra, we believe in the power of authentic connections. Our approach combines traditional marketing wisdom with innovative digital strategies tailored specifically for the Indian market.</p>
-                <p className="mb-3">We prioritize understanding your unique business goals and target audience before crafting customized campaigns that deliver measurable results. Our team of young, tech-savvy professionals stays ahead of digital trends to ensure your brand maintains relevance in a rapidly evolving landscape.</p>
-                <p>We don't just promise results; we partner with you to achieve them, offering transparent reporting and continuous optimization throughout our engagement.</p>
+                <p className="mb-3">At DNA digital marketing agency, we believe in the power of meaningful real estate connections. Our approach blends time-tested property marketing strategies with cutting-edge digital innovations designed specifically for the Indian real estate sector.</p>
+                <p className="mb-3">We focus on understanding your property goals and ideal buyer personas before building customized campaigns that generate real leads. Our team of dynamic, tech-driven experts stays ahead of real estate trends and digital tools to ensure your listings gain maximum visibility in a competitive marketplace.</p>
+                <p>We don’t just promise leads; we collaborate with you to achieve them—delivering transparent performance reporting and continuous optimization throughout our partnership.</p>
               </div>
             </div>
           </div>

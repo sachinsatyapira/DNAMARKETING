@@ -14,16 +14,21 @@ const faqCategories = [
     title: "Pricing & Packages",
     questions: [
       {
-        question: "How much do your services cost?",
-        answer: "Our pricing is customized based on your specific needs and goals. We offer packages starting from ₹1,80,000 per month, but we recommend scheduling a consultation call to discuss your requirements and get a precise quote."
+        question: "What makes DNA Das and Associates different from other digital marketing agencies?",
+        answer: "Wespecialize exclusively in real estate marketing. Our team understands the unique challenges, buyerbehavior, and market dynamics of the real estate industry. This specialization allows us to create more effective, targeted campaigns that deliver better results for builders, brokers, and developers."
       },
       {
-        question: "Do you require long-term contracts?",
-        answer: "We typically work with clients on a minimum 3-month engagement to ensure we can deliver measurable results. After the initial period, we offer flexible month-to-month options as well as discounted rates for annual commitments."
+        question: "How long does it take to see results from digital marketing efforts?",
+        answer: `Results vary depending on
+ the service and market conditions. PPC campaigns can generate leads within days, while SEO typically
+ shows significant results in 3-6 months. Social media marketing builds momentum over 2-3 months. We
+ provide detailed timelines during our initial consultation based on your specific goals`
       },
       {
-        question: "What's included in your basic package?",
-        answer: "Our basic package includes strategy development, campaign setup, influencer outreach to 5-10 relevant creators, content review, and monthly performance reporting. Additional services like custom content creation or paid amplification can be added as needed."
+        question: "Do you work with small real estate brokers or only large developers?",
+        answer: ` We work with real estate
+ professionals of all sizes - from individual brokers to large development companies. Our strategies are
+ scalable and can be customized to fit different budgets and business objectives`
       }
     ]
   },
@@ -32,16 +37,25 @@ const faqCategories = [
     title: "Working Process",
     questions: [
       {
-        question: "How do you select influencers for campaigns?",
-        answer: "We use a proprietary vetting process that evaluates influencers based on audience demographics, engagement rates, content quality, and brand alignment. We prioritize authentic engagement over follower count and ensure all potential influencers match your brand values."
+        question: "What's included in your SEO service for real estate?",
+        answer: `Our real estate SEO includes local search
+ optimization, property listing optimization, content creation, technical SEO, Google My Business
+ optimization, review management, competitor analysis, and detailed monthly reporting with rankings and
+ traffic data.`
       },
       {
-        question: "How long does a typical campaign take to launch?",
-        answer: "After our initial consultation and strategy development, most campaigns can launch within 2-3 weeks. This includes influencer selection, outreach, negotiation, and content briefing. More complex, large-scale campaigns may require additional preparation time."
+        question: "Can you help with both residential and commercial real estate marketing? ",
+        answer: ` Absolutely! We have
+ extensive experience marketing both residential projects (apartments, villas, townships) and commercial
+ properties (offices, retail spaces, warehouses). Our strategies are tailored to the specific audience and
+ sales cycle of each property type.`
       },
       {
-        question: "Do you handle all communication with influencers?",
-        answer: "Yes, our team manages all aspects of influencer relations from initial outreach to briefing, content approval, payment processing, and performance tracking. You'll have visibility into the process, but we handle the day-to-day management."
+        question: "How do you measure the success of marketing campaigns?",
+        answer: `We track comprehensive KPIs
+ including website traffic, lead generation, cost per lead, conversion rates, search rankings, social media
+ engagement, email open rates, and ultimately, sales attribution. You'll receive detailed monthly reports
+ with actionable insights.`
       }
     ]
   },
@@ -50,16 +64,25 @@ const faqCategories = [
     title: "Timeframes & Results",
     questions: [
       {
-        question: "How quickly will I see results from digital marketing?",
-        answer: "Initial results often appear within the first 30 days, but meaningful improvements typically develop over 2-3 months as campaigns optimize and gain momentum. We provide monthly reports showing key metrics and progress toward your goals."
+        question: " Do you provide website development services?",
+        answer: `Yes, we create modern, mobile-responsive
+ websites specifically designed for real estate businesses. Our websites include property showcases, lead
+ capture forms, search functionality, virtual tour integration, and are optimized for both user experience
+ and search engines`
       },
       {
-        question: "What metrics do you track to measure success?",
-        answer: "We customize metrics based on your objectives, but typically track engagement rates, reach, impressions, click-through rates, lead generation, conversion rates, and ROI. For influencer campaigns, we also measure audience sentiment and brand lift when applicable."
+        question: "What social media platforms do you recommend for real estate marketing?",
+        answer: `We typically
+ recommend Facebook and Instagram for visual property showcases and community building, LinkedIn for
+B2B networking and commercial properties, YouTube for property videos and virtual tours, and
+ WhatsApp Business for direct customer communication.`
       },
       {
-        question: "Can you guarantee specific results?",
-        answer: "While we can't guarantee specific numbers due to the many variables in digital marketing, we set realistic targets based on industry benchmarks and our past experience. We're committed to transparency and will provide regular updates on campaign performance."
+        question: " How much should I budget for real estate digital marketing?",
+        answer: ` Marketing budgets vary based on
+ project size, market competition, and business goals. We offer packages starting from ₹50,000 per month
+ for comprehensive digital marketing services. During our consultation, we'll recommend a budget that
+ aligns with your objectives and expected ROI`
       }
     ]
   }

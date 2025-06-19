@@ -41,21 +41,19 @@ const Header = () => {
     <header
       className={cn(
         'fixed top-0 left-0 w-full z-50 transition-all duration-300',
-        isScrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'
+        isScrolled ? 'bg-black/10 backdrop-blur-md shadow-md py-2' : 'bg-transparent py-4'
       )}
     >
       <div className="container mx-auto flex items-center justify-between px-4">
         {/* Logo */}
-        <div className="flex items-center">
-          <div className="w-10 h-10 rounded-full bg-centra-blue flex items-center justify-center text-white font-bold mr-2 font-montserrat">
-            C
-          </div>
-          <span className={cn(
-            'text-2xl font-bold transition-colors duration-300 font-montserrat tracking-wider',
-            isScrolled ? 'text-centra-black' : 'text-white'
-          )}>
-            CENTRA
-          </span>
+        <div className="flex items-center ">
+          <a href="/" className="flex items-center">
+            <img 
+              src={"/lovable-uploads/image-removebg-preview.png"} 
+              alt="Centra Logo" 
+              className="h-10 w-auto drop-shadow-md"
+            />
+          </a>
         </div>
 
         {/* Desktop Navigation */}

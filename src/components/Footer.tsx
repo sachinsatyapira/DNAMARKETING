@@ -36,12 +36,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
             <div className="flex items-center mb-6">
-              <div className="w-10 h-10 rounded-full bg-centra-blue flex items-center justify-center text-white font-bold mr-2 font-montserrat">
-                C
-              </div>
-              <span className="text-2xl font-bold text-white font-montserrat tracking-wider">
-                CENTRA
-              </span>
+              <img 
+                src="/lovable-uploads/1-removebg-preview.png" 
+                alt="Centra Logo" 
+                className="h-30 w-auto mr-3 drop-shadow-md"
+              />
+              
             </div>
             
             <p className="text-gray-400 mb-6">

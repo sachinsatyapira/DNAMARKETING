@@ -6,10 +6,26 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const testimonials = [
   {
+    id: -1,
+    name: "Rahul Sharma",
+    role: " Managing Director - Sharma Constructions",
+    avatar: "https://randomuser.me/api/portraits/men/41.jpg",
+    rating: 5,
+    content: "Centra's digital marketing expertise has transformed our online presence completely. Their strategic approach helped us reach a wider audience and increased our sales by 35% in just two months. Truly impressed with their professionalism!"
+  },
+  {
     id: 1,
     name: "Amol Thokale",
     role: "Owner, House of Sneakers 24",
     avatar: "https://randomuser.me/api/portraits/men/32.jpg",
+    rating: 5,
+    content: "Centra's digital marketing expertise has transformed our online presence completely. Their strategic approach helped us reach a wider audience and increased our sales by 35% in just two months. Truly impressed with their professionalism!"
+  },
+  {
+    id: 5,
+    name: " Vikram Patel",
+    role: "Skyline Developers",
+    avatar: "https://randomuser.me/api/portraits/men/52.jpg",
     rating: 5,
     content: "Centra's digital marketing expertise has transformed our online presence completely. Their strategic approach helped us reach a wider audience and increased our sales by 35% in just two months. Truly impressed with their professionalism!"
   },
@@ -30,6 +46,14 @@ const testimonials = [
     content: "The team at Centra truly understands the fashion industry. They connected us with the perfect influencers for our brand image and helped us navigate social media trends effectively."
   },
   {
+    id: 6,
+    name: " Sunita Kapoor",
+    role: "Marketing Head - Golden Square Mall",
+    avatar: "https://randomuser.me/api/portraits/women/32.jpg",
+    rating: 5,
+    content: "Centra's digital marketing expertise has transformed our online presence completely. Their strategic approach helped us reach a wider audience and increased our sales by 35% in just two months. Truly impressed with their professionalism!"
+  },
+  {
     id: 4,
     name: "David Wilson",
     role: "Operations Director, GlobalTech",
@@ -37,6 +61,7 @@ const testimonials = [
     rating: 5,
     content: "Exceptional service and impressive results. Centra's data-driven approach to digital marketing gave us clear insights into our campaign performance and helped us optimize our strategy."
   },
+
 ];
 
 const Testimonials = () => {

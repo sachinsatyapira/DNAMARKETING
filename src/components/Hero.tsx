@@ -12,9 +12,9 @@ const carouselItems = [
   },
   {
     id: 2,
-    title: "Next-Generation Influencer Marketing",
+    title: "Next-Generation Real-estate Marketing",
     subtitle: "Leveraging Social Media Influence",
-    backgroundUrl: "https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?q=80&w=1974&auto=format&fit=crop"
+    backgroundUrl: "/lovable-uploads/door-opening-revealing-beautiful-city.jpg"
   },
   {
     id: 3,
