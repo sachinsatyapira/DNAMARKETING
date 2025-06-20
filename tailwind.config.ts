@@ -53,7 +53,7 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				centra: {
+				DNA: {
 					blue: "#0066FF",
 					darkblue: "#0052CC",
 					lightblue: "#3385FF",

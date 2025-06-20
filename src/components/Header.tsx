@@ -50,7 +50,7 @@ const Header = () => {
           <a href="/" className="flex items-center">
             <img 
               src={"/lovable-uploads/image-removebg-preview.png"} 
-              alt="Centra Logo" 
+              alt="DNA Logo" 
               className="h-10 w-auto drop-shadow-md"
             />
           </a>
@@ -62,7 +62,7 @@ const Header = () => {
             variant="ghost" 
             className={cn(
               'font-medium hover:bg-transparent',
-              isScrolled ? 'text-centra-black hover:text-centra-blue' : 'text-white hover:text-white/80'
+              isScrolled ? 'text-DNA-black hover:text-DNA-blue' : 'text-white hover:text-white/80'
             )}
             onClick={() => scrollToSection('about')}
           >
@@ -75,7 +75,7 @@ const Header = () => {
                 variant="ghost" 
                 className={cn(
                   'font-medium hover:bg-transparent flex items-center',
-                  isScrolled ? 'text-centra-black hover:text-centra-blue' : 'text-white hover:text-white/80'
+                  isScrolled ? 'text-DNA-black hover:text-DNA-blue' : 'text-white hover:text-white/80'
                 )}
               >
                 More <ChevronDown className="ml-1 w-4 h-4" />
@@ -105,17 +105,17 @@ const Header = () => {
         >
           <div className={cn(
             'w-6 h-0.5 mb-1.5 transition-all duration-300',
-            isScrolled ? 'bg-centra-black' : 'bg-white',
+            isScrolled ? 'bg-DNA-black' : 'bg-white',
             mobileMenuOpen && 'transform rotate-45 translate-y-2'
           )}></div>
           <div className={cn(
             'w-6 h-0.5 mb-1.5 transition-all duration-300',
-            isScrolled ? 'bg-centra-black' : 'bg-white',
+            isScrolled ? 'bg-DNA-black' : 'bg-white',
             mobileMenuOpen && 'opacity-0'
           )}></div>
           <div className={cn(
             'w-6 h-0.5 transition-all duration-300',
-            isScrolled ? 'bg-centra-black' : 'bg-white',
+            isScrolled ? 'bg-DNA-black' : 'bg-white',
             mobileMenuOpen && 'transform -rotate-45 -translate-y-2'
           )}></div>
         </button>
@@ -129,35 +129,35 @@ const Header = () => {
         <div className="flex flex-col space-y-4">
           <Button 
             variant="ghost" 
-            className="w-full justify-start text-lg font-medium hover:bg-gray-100 hover:text-centra-blue"
+            className="w-full justify-start text-lg font-medium hover:bg-gray-100 hover:text-DNA-blue"
             onClick={() => scrollToSection('about')}
           >
             About Us
           </Button>
           <Button 
             variant="ghost" 
-            className="w-full justify-start text-lg font-medium hover:bg-gray-100 hover:text-centra-blue"
+            className="w-full justify-start text-lg font-medium hover:bg-gray-100 hover:text-DNA-blue"
             onClick={() => scrollToSection('testimonials')}
           >
             Testimonials
           </Button>
           <Button 
             variant="ghost"
-            className="w-full justify-start text-lg font-medium hover:bg-gray-100 hover:text-centra-blue"
+            className="w-full justify-start text-lg font-medium hover:bg-gray-100 hover:text-DNA-blue"
             onClick={() => scrollToSection('blog')}
           >
             Blog / Resources
           </Button>
           <Button 
             variant="ghost" 
-            className="w-full justify-start text-lg font-medium hover:bg-gray-100 hover:text-centra-blue"
+            className="w-full justify-start text-lg font-medium hover:bg-gray-100 hover:text-DNA-blue"
             onClick={() => scrollToSection('contact')}
           >
             Contact Us
           </Button>
           <Button 
             variant="ghost" 
-            className="w-full justify-start text-lg font-medium hover:bg-gray-100 hover:text-centra-blue"
+            className="w-full justify-start text-lg font-medium hover:bg-gray-100 hover:text-DNA-blue"
             onClick={() => scrollToSection('faq')}
           >
             FAQ

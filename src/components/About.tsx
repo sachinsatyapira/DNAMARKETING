@@ -43,8 +43,8 @@ const AboutSection = () => {
               
               <div className="grid grid-cols-2 gap-6 mb-8">
                 <div className="flex items-start">
-                  <div className="w-12 h-12 rounded-full bg-centra-blue/10 flex items-center justify-center mr-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-centra-blue">
+                  <div className="w-12 h-12 rounded-full bg-DNA-blue/10 flex items-center justify-center mr-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-DNA-blue">
                       <circle cx="12" cy="12" r="10"></circle>
                       <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
                       <line x1="2" y1="12" x2="22" y2="12"></line>
@@ -57,8 +57,8 @@ const AboutSection = () => {
                 </div>
                 
                 <div className="flex items-start">
-                  <div className="w-12 h-12 rounded-full bg-centra-blue/10 flex items-center justify-center mr-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-centra-blue">
+                  <div className="w-12 h-12 rounded-full bg-DNA-blue/10 flex items-center justify-center mr-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-DNA-blue">
                       <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
                     </svg>
                   </div>
@@ -69,8 +69,8 @@ const AboutSection = () => {
                 </div>
 
                 <div className="flex items-start">
-                  <div className="w-12 h-12 rounded-full bg-centra-blue/10 flex items-center justify-center mr-4">
-                    <TrendingUp className="text-centra-blue" />
+                  <div className="w-12 h-12 rounded-full bg-DNA-blue/10 flex items-center justify-center mr-4">
+                    <TrendingUp className="text-DNA-blue" />
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold mb-1">Data Driven</h4>
@@ -79,8 +79,8 @@ const AboutSection = () => {
                 </div>
 
                 <div className="flex items-start">
-                  <div className="w-12 h-12 rounded-full bg-centra-blue/10 flex items-center justify-center mr-4">
-                    <Users className="text-centra-blue" />
+                  <div className="w-12 h-12 rounded-full bg-DNA-blue/10 flex items-center justify-center mr-4">
+                    <Users className="text-DNA-blue" />
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold mb-1">Fresh Ideas</h4>
@@ -92,12 +92,12 @@ const AboutSection = () => {
             
             <div className="order-1 lg:order-2">
               <div className="relative">
-                <div className="absolute -left-4 -top-4 w-24 h-24 bg-centra-blue/10 rounded-lg"></div>
-                <div className="absolute -right-4 -bottom-4 w-32 h-32 bg-centra-blue/10 rounded-lg"></div>
+                <div className="absolute -left-4 -top-4 w-24 h-24 bg-DNA-blue/10 rounded-lg"></div>
+                <div className="absolute -right-4 -bottom-4 w-32 h-32 bg-DNA-blue/10 rounded-lg"></div>
                 <div className="relative z-10 rounded-lg overflow-hidden shadow-xl">
                   <img 
                     src="/lovable-uploads/urban-traffic-with-cityscape.jpg" 
-                    alt="Centra Team" 
+                    alt="DNA Team" 
                     className="w-full h-auto"
                   />
                 </div>
@@ -121,7 +121,7 @@ const AboutSection = () => {
               )} style={{ animationDelay: "0.3s" }}>
                 <CardContent className="p-6 flex flex-col items-center">
                   <div className="mb-4">
-                    <div className="w-32 h-32 rounded-full bg-centra-blue/10 flex items-center justify-center relative">
+                    <div className="w-32 h-32 rounded-full bg-DNA-blue/10 flex items-center justify-center relative">
                       <div className="absolute w-32 h-32 rounded-full bg-white border-4 border-white shadow-lg overflow-hidden">
                         <img 
                           src="/lovable-uploads/0c687343-fd1c-4320-a014-230c4cd1766a.png" 
@@ -129,12 +129,12 @@ const AboutSection = () => {
                           className="object-cover w-full h-full"
                         />
                       </div>
-                      <div className="absolute -right-2 -bottom-2 w-10 h-10 rounded-full bg-centra-blue/20"></div>
-                      <div className="absolute -left-3 -top-3 w-8 h-8 rounded-full bg-centra-blue/20"></div>
+                      <div className="absolute -right-2 -bottom-2 w-10 h-10 rounded-full bg-DNA-blue/20"></div>
+                      <div className="absolute -left-3 -top-3 w-8 h-8 rounded-full bg-DNA-blue/20"></div>
                     </div>
                   </div>
                   <h4 className="text-xl font-bold">Kunal Dubey</h4>
-                  <p className="text-centra-blue font-medium">Founder & CEO</p>
+                  <p className="text-DNA-blue font-medium">Founder & CEO</p>
                   <p className="text-gray-600 mt-4 text-center">
                     Innovative young entrepreneur with a passion for creating cutting-edge digital marketing solutions.
                   </p>
@@ -147,7 +147,7 @@ const AboutSection = () => {
               )}>
                 <CardContent className="p-6 flex flex-col items-center">
                   <div className="mb-4">
-                    <div className="w-32 h-32 rounded-full bg-centra-blue/10 flex items-center justify-center relative">
+                    <div className="w-32 h-32 rounded-full bg-DNA-blue/10 flex items-center justify-center relative">
                       <div className="absolute w-32 h-32 rounded-full bg-white border-4 border-white shadow-lg overflow-hidden">
                         <img 
                           src="/lovable-uploads/38264ea6-00b8-4bdd-8e71-2fe220c69097.png" 
@@ -155,12 +155,12 @@ const AboutSection = () => {
                           className="object-cover w-full h-full"
                         />
                       </div>
-                      <div className="absolute -right-2 -bottom-2 w-10 h-10 rounded-full bg-centra-blue/20"></div>
-                      <div className="absolute -left-3 -top-3 w-8 h-8 rounded-full bg-centra-blue/20"></div>
+                      <div className="absolute -right-2 -bottom-2 w-10 h-10 rounded-full bg-DNA-blue/20"></div>
+                      <div className="absolute -left-3 -top-3 w-8 h-8 rounded-full bg-DNA-blue/20"></div>
                     </div>
                   </div>
                   <h4 className="text-xl font-bold">Sai Sankar Jena</h4>
-                  <p className="text-centra-blue font-medium">Managing Director</p>
+                  <p className="text-DNA-blue font-medium">Managing Director</p>
                   <p className="text-gray-600 mt-4 text-center">
                     Young entrepreneur with a fresh perspective on digital marketing and business strategy.
                   </p>
@@ -174,8 +174,8 @@ const AboutSection = () => {
               "inline-flex flex-col items-center gap-4 transition-all hover:translate-y-2 duration-300",
               foundersInView ? "animate-fade-in" : ""
             )} style={{ animationDelay: "0.5s" }}>
-              <span className="font-semibold text-xl text-centra-blue">Learn more about our approach</span>
-              <Move className="h-5 w-5 text-centra-blue" />
+              <span className="font-semibold text-xl text-DNA-blue">Learn more about our approach</span>
+              <Move className="h-5 w-5 text-DNA-blue" />
               <div className="mt-4 max-w-2xl mx-auto text-gray-600">
                 <p className="mb-3">At DNA digital marketing agency, we believe in the power of meaningful real estate connections. Our approach blends time-tested property marketing strategies with cutting-edge digital innovations designed specifically for the Indian real estate sector.</p>
                 <p className="mb-3">We focus on understanding your property goals and ideal buyer personas before building customized campaigns that generate real leads. Our team of dynamic, tech-driven experts stays ahead of real estate trends and digital tools to ensure your listings gain maximum visibility in a competitive marketplace.</p>

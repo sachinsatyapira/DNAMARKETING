@@ -113,12 +113,12 @@ const FAQ = () => {
         >
           {faqCategories.map((category) => (
             <div key={category.id} className="mb-10">
-              <h3 className="text-xl font-bold mb-6 text-centra-blue">{category.title}</h3>
+              <h3 className="text-xl font-bold mb-6 text-DNA-blue">{category.title}</h3>
               
               <Accordion type="single" collapsible className="space-y-4">
                 {category.questions.map((item, index) => (
                   <AccordionItem key={index} value={`item-${category.id}-${index}`} className="bg-white rounded-lg shadow-sm">
-                    <AccordionTrigger className="px-6 py-4 text-left font-medium text-lg hover:text-centra-blue">
+                    <AccordionTrigger className="px-6 py-4 text-left font-medium text-lg hover:text-DNA-blue">
                       {item.question}
                     </AccordionTrigger>
                     <AccordionContent className="px-6 pb-6 text-gray-600">

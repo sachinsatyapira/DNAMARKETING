@@ -137,7 +137,7 @@ const ContactForm = () => {
                 
                 <Button
                   type="submit"
-                  className="bg-centra-blue hover:bg-centra-darkblue text-white py-3 px-6 rounded-md"
+                  className="bg-DNA-blue hover:bg-DNA-darkblue text-white py-3 px-6 rounded-md"
                   disabled={isSubmitting}
                 >
                   {isSubmitting ? "Sending..." : "Send Message"}
@@ -155,15 +155,15 @@ const ContactForm = () => {
               
               <div className="space-y-6">
                 <div className="flex items-start">
-                  <div className="w-10 h-10 rounded-full bg-centra-blue/10 flex items-center justify-center mr-4">
-                    <Phone className="h-5 w-5 text-centra-blue" />
+                  <div className="w-10 h-10 rounded-full bg-DNA-blue/10 flex items-center justify-center mr-4">
+                    <Phone className="h-5 w-5 text-DNA-blue" />
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold">Phone</h4>
                     <p className="text-gray-600">+91 866 825 8845</p>
                     <a 
                       href="tel:+918668258845" 
-                      className="text-centra-blue hover:underline mt-1 inline-block"
+                      className="text-DNA-blue hover:underline mt-1 inline-block"
                     >
                       Call Us
                     </a>
@@ -171,15 +171,15 @@ const ContactForm = () => {
                 </div>
                 
                 <div className="flex items-start">
-                  <div className="w-10 h-10 rounded-full bg-centra-blue/10 flex items-center justify-center mr-4">
-                    <Mail className="h-5 w-5 text-centra-blue" />
+                  <div className="w-10 h-10 rounded-full bg-DNA-blue/10 flex items-center justify-center mr-4">
+                    <Mail className="h-5 w-5 text-DNA-blue" />
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold">Email</h4>
                     <p className="text-gray-600">kunaldubey6969@gmail.com</p>
                     <a 
                       href="mailto:kunaldubey6969@gmail.com" 
-                      className="text-centra-blue hover:underline mt-1 inline-block"
+                      className="text-DNA-blue hover:underline mt-1 inline-block"
                     >
                       Email Us
                     </a>
@@ -187,8 +187,8 @@ const ContactForm = () => {
                 </div>
                 
                 <div className="flex items-start">
-                  <div className="w-10 h-10 rounded-full bg-centra-blue/10 flex items-center justify-center mr-4">
-                    <MapPin className="h-5 w-5 text-centra-blue" />
+                  <div className="w-10 h-10 rounded-full bg-DNA-blue/10 flex items-center justify-center mr-4">
+                    <MapPin className="h-5 w-5 text-DNA-blue" />
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold">Address</h4>
@@ -202,7 +202,7 @@ const ContactForm = () => {
             <div className="rounded-lg overflow-hidden h-48 md:h-64 mt-8">
               <img 
                 src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?q=80&w=2069&auto=format&fit=crop" 
-                alt="Centra Office" 
+                alt="DNA Office" 
                 className="w-full h-full object-cover"
               />
             </div>

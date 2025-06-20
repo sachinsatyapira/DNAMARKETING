@@ -41,13 +41,13 @@ const Blog = () => {
                 
                 <div className="p-6">
                   <div className="flex items-center mb-3">
-                    <span className="text-xs font-semibold bg-centra-blue/10 text-centra-blue px-2 py-1 rounded-full">
+                    <span className="text-xs font-semibold bg-DNA-blue/10 text-DNA-blue px-2 py-1 rounded-full">
                       {post.category}
                     </span>
                     <span className="text-xs text-gray-500 ml-3">{post.date}</span>
                   </div>
                   
-                  <h3 className="text-xl font-bold mb-2 group-hover:text-centra-blue transition-colors">
+                  <h3 className="text-xl font-bold mb-2 group-hover:text-DNA-blue transition-colors">
                     {post.title}
                   </h3>
                   
@@ -57,7 +57,7 @@ const Blog = () => {
                   
                   <Link 
                     to={`/blog/${post.id}`} 
-                    className="flex items-center text-centra-blue font-medium group-hover:text-centra-darkblue transition-colors"
+                    className="flex items-center text-DNA-blue font-medium group-hover:text-DNA-darkblue transition-colors"
                   >
                     Read More <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                   </Link>
@@ -68,7 +68,7 @@ const Blog = () => {
         </div>
         
         <div className="text-center mt-12">
-          <button className="px-6 py-3 bg-transparent border border-centra-blue text-centra-blue rounded-md font-medium hover:bg-centra-blue hover:text-white transition-colors">
+          <button className="px-6 py-3 bg-transparent border border-DNA-blue text-DNA-blue rounded-md font-medium hover:bg-DNA-blue hover:text-white transition-colors">
             View All Resources
           </button>
         </div>

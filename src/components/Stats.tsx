@@ -53,7 +53,7 @@ const StatItem = ({ label, value, suffix, duration = 2000 }: StatItemProps) => {
       ref={ref} 
       className="flex flex-col items-center py-6 px-4 animate-count-up"
     >
-      <div className="text-4xl md:text-5xl font-bold mb-2 text-centra-blue">
+      <div className="text-4xl md:text-5xl font-bold mb-2 text-DNA-blue">
         {formattedCount}{suffix}
       </div>
       <p className="text-lg text-gray-600">{label}</p>

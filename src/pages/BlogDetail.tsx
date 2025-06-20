@@ -35,14 +35,14 @@ const BlogDetail = () => {
       
       <div className="pt-28 pb-16 px-4">
         <div className="container mx-auto max-w-4xl">
-          <Link to="/#blog" className="inline-flex items-center text-centra-blue hover:text-centra-darkblue mb-8">
+          <Link to="/#blog" className="inline-flex items-center text-DNA-blue hover:text-DNA-darkblue mb-8">
             <ArrowLeft className="mr-2 h-4 w-4" />
             Back to all resources
           </Link>
           
           {loading ? (
             <div className="flex justify-center items-center h-64">
-              <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-centra-blue"></div>
+              <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-DNA-blue"></div>
             </div>
           ) : post ? (
             <div
@@ -53,7 +53,7 @@ const BlogDetail = () => {
               )}
             >
               <div className="mb-6 flex items-center">
-                <span className="text-sm font-semibold bg-centra-blue/10 text-centra-blue px-2 py-1 rounded-full">
+                <span className="text-sm font-semibold bg-DNA-blue/10 text-DNA-blue px-2 py-1 rounded-full">
                   {post.category}
                 </span>
                 <span className="text-sm text-gray-500 ml-3">{post.date}</span>

@@ -11,7 +11,7 @@ const testimonials = [
     role: " Managing Director - Sharma Constructions",
     avatar: "https://randomuser.me/api/portraits/men/41.jpg",
     rating: 5,
-    content: "Centra's digital marketing expertise has transformed our online presence completely. Their strategic approach helped us reach a wider audience and increased our sales by 35% in just two months. Truly impressed with their professionalism!"
+    content: "DNA's digital marketing expertise has transformed our online presence completely. Their strategic approach helped us reach a wider audience and increased our sales by 35% in just two months. Truly impressed with their professionalism!"
   },
   {
     id: 1,
@@ -19,7 +19,7 @@ const testimonials = [
     role: "Owner, House of Sneakers 24",
     avatar: "https://randomuser.me/api/portraits/men/32.jpg",
     rating: 5,
-    content: "Centra's digital marketing expertise has transformed our online presence completely. Their strategic approach helped us reach a wider audience and increased our sales by 35% in just two months. Truly impressed with their professionalism!"
+    content: "DNA's digital marketing expertise has transformed our online presence completely. Their strategic approach helped us reach a wider audience and increased our sales by 35% in just two months. Truly impressed with their professionalism!"
   },
   {
     id: 5,
@@ -27,7 +27,7 @@ const testimonials = [
     role: "Skyline Developers",
     avatar: "https://randomuser.me/api/portraits/men/52.jpg",
     rating: 5,
-    content: "Centra's digital marketing expertise has transformed our online presence completely. Their strategic approach helped us reach a wider audience and increased our sales by 35% in just two months. Truly impressed with their professionalism!"
+    content: "DNA's digital marketing expertise has transformed our online presence completely. Their strategic approach helped us reach a wider audience and increased our sales by 35% in just two months. Truly impressed with their professionalism!"
   },
   {
     id: 2,
@@ -35,7 +35,7 @@ const testimonials = [
     role: "CEO, Kunal Cargo Logistics",
     avatar: "https://randomuser.me/api/portraits/men/44.jpg",
     rating: 5,
-    content: "Working with Centra has been a game-changer for our logistics business. Their targeted marketing strategies helped us connect with the right clients and expand our operations across multiple regions. Exceptional service and results!"
+    content: "Working with DNA has been a game-changer for our logistics business. Their targeted marketing strategies helped us connect with the right clients and expand our operations across multiple regions. Exceptional service and results!"
   },
   {
     id: 3,
@@ -43,7 +43,7 @@ const testimonials = [
     role: "Brand Manager, Fashion Forward",
     avatar: "https://randomuser.me/api/portraits/women/68.jpg",
     rating: 4,
-    content: "The team at Centra truly understands the fashion industry. They connected us with the perfect influencers for our brand image and helped us navigate social media trends effectively."
+    content: "The team at DNA truly understands the fashion industry. They connected us with the perfect influencers for our brand image and helped us navigate social media trends effectively."
   },
   {
     id: 6,
@@ -51,7 +51,7 @@ const testimonials = [
     role: "Marketing Head - Golden Square Mall",
     avatar: "https://randomuser.me/api/portraits/women/32.jpg",
     rating: 5,
-    content: "Centra's digital marketing expertise has transformed our online presence completely. Their strategic approach helped us reach a wider audience and increased our sales by 35% in just two months. Truly impressed with their professionalism!"
+    content: "DNA's digital marketing expertise has transformed our online presence completely. Their strategic approach helped us reach a wider audience and increased our sales by 35% in just two months. Truly impressed with their professionalism!"
   },
   {
     id: 4,
@@ -59,7 +59,7 @@ const testimonials = [
     role: "Operations Director, GlobalTech",
     avatar: "https://randomuser.me/api/portraits/men/86.jpg",
     rating: 5,
-    content: "Exceptional service and impressive results. Centra's data-driven approach to digital marketing gave us clear insights into our campaign performance and helped us optimize our strategy."
+    content: "Exceptional service and impressive results. DNA's data-driven approach to digital marketing gave us clear insights into our campaign performance and helped us optimize our strategy."
   },
 
 ];
@@ -101,7 +101,7 @@ const Testimonials = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">What Our Clients Say</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Don't just take our word for it. Here's what our clients have to say about working with Centra.
+            Don't just take our word for it. Here's what our clients have to say about working with DNA.
           </p>
         </div>
         
@@ -151,7 +151,7 @@ const Testimonials = () => {
                   onClick={() => setCurrentIndex(i)}
                   className={cn(
                     "w-3 h-3 rounded-full mx-1",
-                    i === currentIndex ? "bg-centra-blue" : "bg-gray-300"
+                    i === currentIndex ? "bg-DNA-blue" : "bg-gray-300"
                   )}
                 />
               ))}
