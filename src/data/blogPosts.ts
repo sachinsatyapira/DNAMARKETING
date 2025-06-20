@@ -1,19 +1,19 @@
 
 export const blogPosts = [
   {
-    id: 1,
-    title: "7 Key Strategies for Effective Influencer Marketing",
-    excerpt: "Discover the proven strategies that lead to successful influencer marketing campaigns and learn how to implement them for your brand.",
-    imageUrl: "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?q=80&w=2070&auto=format&fit=crop",
-    date: "May 4, 2025",
-    category: "Marketing",
-    content: {
-      introduction: "Influencer marketing has become a cornerstone of modern digital strategies, but many brands struggle to execute campaigns that deliver meaningful ROI. This article explores seven proven strategies that can transform your influencer partnerships from simple promotional arrangements into powerful engines for brand growth and customer acquisition.",
-      insights: "The key to successful influencer marketing lies in authenticity and strategic alignment. Research shows that 63% of consumers trust influencer recommendations over traditional advertising. However, this trust is contingent upon the perceived authenticity of the partnership. Brands that force unnatural product placements often experience negative sentiment and diminished returns.",
-      strategies: "1. Define clear campaign objectives beyond simple reach metrics.\n2. Select influencers based on audience alignment rather than follower count.\n3. Develop collaborative content strategies that leverage the influencer's unique voice.\n4. Establish clear performance metrics tied to business outcomes.\n5. Create multi-channel amplification strategies for influencer content.\n6. Build long-term relationships rather than one-off campaigns.\n7. Continuously test and optimize based on performance data.",
-      conclusion: "When executed strategically, influencer marketing can deliver exceptional returns on investment while building authentic connections with target audiences. The most successful brands view influencers not as mere promotional channels but as creative partners who can help shape and amplify brand messaging in ways that resonate with specific audience segments."
-    }
-  },
+  id: 1,
+  title: "7 Key Strategies for Effective Real Estate Digital Marketing",
+  excerpt: "Unlock the most effective digital marketing strategies tailored for the real estate industry and discover how to generate more qualified leads and drive sales.",
+  imageUrl: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop",
+  date: "May 4, 2025",
+  category: "Real Estate Marketing",
+  content: {
+    introduction: "In today’s highly competitive property market, digital marketing plays a crucial role in driving visibility and conversions for real estate businesses. Yet, many developers and agents struggle to implement strategies that generate high-quality leads and boost project inquiries. This article explores seven powerful strategies to maximize the effectiveness of your real estate digital marketing efforts.",
+    insights: "Real estate buyers today rely heavily on online research before making decisions. In fact, 97% of homebuyers begin their property search online. A robust digital marketing strategy ensures your projects are visible, engaging, and positioned to convert interest into action. However, generic campaigns often miss the mark — success lies in hyper-targeted, value-driven approaches that resonate with specific buyer segments.",
+    strategies: "1. Define clear marketing goals such as lead generation, site visits, or project inquiries.\n2. Target location-specific audiences with tailored SEO and PPC campaigns.\n3. Invest in high-quality visuals, 3D walkthroughs, and virtual tours to showcase properties.\n4. Use retargeting ads to re-engage potential buyers who visited your project website.\n5. Build trust through testimonials, Google reviews, and builder reputation campaigns.\n6. Leverage WhatsApp, chatbots, and CRM integration for fast follow-ups.\n7. Continuously analyze campaign data and optimize based on real-time performance insights.",
+    conclusion: "A strategic digital marketing plan can transform your real estate brand by attracting the right buyers, increasing engagement, and ultimately driving sales. The most successful developers treat digital not just as an add-on, but as the backbone of their property sales funnel — delivering consistent, measurable results through data-driven execution."
+  }
+},
   {
     id: 2,
     title: "The Future of Real Estate Marketing in the Digital Age",
