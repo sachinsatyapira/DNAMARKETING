@@ -60,7 +60,7 @@ export const blogPosts = [
     id: 9,
     title: "Landing Pages That Convert: Real Estate Edition",
     excerpt: "Turn your website visitors into real buyers with conversion-optimized landing pages designed specifically for real estate leads.",
-    imageUrl: "https://images.unsplash.com/photo-1514890547357-a99040b5e0b4?q=80&w=2070&auto=format&fit=crop",
+    imageUrl: "https://images.unsplash.com/photo-1708005522625-4b40dd0c0eea?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     date: "May 25, 2025",
     category: "Real Estate Marketing",
     content: {
@@ -74,7 +74,7 @@ export const blogPosts = [
     id: 7,
     title: "WhatsApp Marketing for Real Estate: Convert Faster",
     excerpt: "Leverage WhatsApp to follow up with leads, share project details, and build real-time engagement with serious buyers.",
-    imageUrl: "https://images.unsplash.com/photo-1590608897129-79da98d159ab?q=80&w=2070&auto=format&fit=crop",
+    imageUrl: "https://images.unsplash.com/photo-1644035772775-8e26685ad2f0?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     date: "May 21, 2025",
     category: "Real Estate Marketing",
     content: {
@@ -88,7 +88,7 @@ export const blogPosts = [
     id: 8,
     title: "Instagram Reels: A Secret Weapon for Property Promotion",
     excerpt: "Use trending Instagram Reels to grab attention and showcase your real estate projects to a younger, mobile audience.",
-    imageUrl: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=2070&auto=format&fit=crop",
+    imageUrl: "https://images.unsplash.com/photo-1618987892200-a2f7a3d05529?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     date: "May 23, 2025",
     category: "Real Estate Marketing",
     content: {
@@ -116,7 +116,7 @@ export const blogPosts = [
       id: 11,
       title: "Real Estate Google My Business: The Local Lead Magnet",
       excerpt: "Optimize your Google Business Profile to show up when local buyers search for real estate projects near them.",
-      imageUrl: "https://images.unsplash.com/photo-1560448075-bb4b4a0e7031?q=80&w=2070&auto=format&fit=crop",
+      imageUrl: "https://images.unsplash.com/photo-1603568993078-39a1f2c032c7?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       date: "May 30, 2025",
       category: "Real Estate Marketing",
       content: {
