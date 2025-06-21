@@ -16,37 +16,24 @@ const ContactForm = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
-    // Simulate form submission and data storage in spreadsheet
+
+    toast({
+      title: "Message Sent!",
+      description: "We'll get back to you as soon as possible.",
+    });
+
     setTimeout(() => {
-      // Create a data object to simulate storing in a spreadsheet
-      const formData = {
-        name,
-        email,
-        phone,
-        message,
-        timestamp: new Date().toISOString()
-      };
-      
-      // Log the data that would be stored in the spreadsheet
-      console.log('Form data to be stored in spreadsheet:', formData);
-      
-      toast({
-        title: "Message Sent!",
-        description: "We'll get back to you as soon as possible.",
-      });
-      
-      // Reset form
       setName('');
       setEmail('');
       setPhone('');
       setMessage('');
       setIsSubmitting(false);
-    }, 1500);
+    }, 1000);
   };
+
 
   const { ref, inView } = useInView({
     triggerOnce: true,
@@ -73,7 +60,15 @@ const ContactForm = () => {
           <div className="bg-white rounded-lg shadow-lg p-8">
             <h3 className="text-2xl font-bold mb-6">Send Us a Message</h3>
             
-            <form onSubmit={handleSubmit}>
+            <form
+              name="contact"
+              method="POST"
+              data-netlify="true"
+              onSubmit={handleSubmit}
+            >
+              {/* Netlify form hidden input */}
+              <input type="hidden" name="form-name" value="contact" />
+
               <div className="grid grid-cols-1 gap-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
@@ -81,6 +76,7 @@ const ContactForm = () => {
                   </label>
                   <Input
                     id="name"
+                    name="name"
                     type="text"
                     placeholder="John Doe"
                     value={name}
@@ -89,13 +85,14 @@ const ContactForm = () => {
                     className="w-full"
                   />
                 </div>
-                
+
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
                     Email Address
                   </label>
                   <Input
                     id="email"
+                    name="email"
                     type="email"
                     placeholder="john@example.com"
                     value={email}
@@ -104,13 +101,14 @@ const ContactForm = () => {
                     className="w-full"
                   />
                 </div>
-                
+
                 <div>
                   <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
                     Phone Number
                   </label>
                   <Input
                     id="phone"
+                    name="phone"
                     type="tel"
                     placeholder="+91 98765 43210"
                     value={phone}
@@ -119,13 +117,14 @@ const ContactForm = () => {
                     className="w-full"
                   />
                 </div>
-                
+
                 <div>
                   <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
                     Your Message
                   </label>
                   <Textarea
                     id="message"
+                    name="message"
                     placeholder="Tell us about your project..."
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
@@ -134,7 +133,7 @@ const ContactForm = () => {
                     className="w-full"
                   />
                 </div>
-                
+
                 <Button
                   type="submit"
                   className="bg-DNA-blue hover:bg-DNA-darkblue text-white py-3 px-6 rounded-md"
@@ -142,11 +141,13 @@ const ContactForm = () => {
                 >
                   {isSubmitting ? "Sending..." : "Send Message"}
                 </Button>
+
                 <p className="text-xs text-gray-500 text-center">
                   By submitting this form, you agree to our Privacy Policy and Terms of Service.
                 </p>
               </div>
             </form>
+
           </div>
           
           <div className="flex flex-col justify-between">
