@@ -42,7 +42,7 @@ const Blog = () => {
           <button
             onClick={handlePrev}
             disabled={currentIndex === 0}
-            className="absolute left-0 z-10 bg-DNA-blue text-white p-3 rounded-full shadow-md hover:bg-DNA-darkblue transition disabled:opacity-30"
+            className="absolute left-[-56px] z-10 bg-DNA-blue text-white p-3 rounded-full shadow-md hover:bg-DNA-darkblue transition disabled:opacity-30"
           >
             <ArrowLeft className="w-5 h-5" />
           </button>
@@ -92,7 +92,7 @@ const Blog = () => {
           <button
             onClick={handleNext}
             disabled={currentIndex + 3 >= blogPosts.length}
-            className="absolute right-0 z-10 bg-DNA-blue text-white p-3 rounded-full shadow-md hover:bg-DNA-darkblue transition disabled:opacity-30"
+            className="absolute right-[-56px] z-10 bg-DNA-blue text-white p-3 rounded-full shadow-md hover:bg-DNA-darkblue transition disabled:opacity-30"
           >
             <ArrowRight className="w-5 h-5" />
           </button>
