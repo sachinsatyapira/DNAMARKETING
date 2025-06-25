@@ -2,6 +2,19 @@ import { useInView } from 'react-intersection-observer';
 import { cn } from '@/lib/utils';
 import { FaSearch, FaBullhorn, FaDollarSign, FaPenNib, FaGlobe, FaPalette, FaEnvelope, FaShieldAlt, FaVideo } from 'react-icons/fa';
 
+const topServices = [
+  {
+    icon: <FaBullhorn className="text-5xl text-DNA-blue" />,
+    title: 'Lead Generation',
+    description: 'Get high-quality leads for your business with targeted campaigns and proven strategies.',
+  },
+  {
+    icon: <FaGlobe className="text-5xl text-DNA-blue" />,
+    title: 'Landing Page Making',
+    description: 'We design and develop high-converting landing pages tailored to your marketing goals.',
+  },
+];
+
 const services = [
   {
     icon: <FaSearch className="text-3xl text-DNA-blue" />,
@@ -63,6 +76,21 @@ const Services = () => {
           </p>
         </div>
 
+        {/* Top 2 big services side by side */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+          {topServices.map((service, idx) => (
+            <div
+              key={idx}
+              className="bg-white rounded-lg shadow-md p-10 text-center flex flex-col items-center text-2xl"
+            >
+              <div className="mb-6">{service.icon}</div>
+              <h3 className="font-semibold mb-2 text-3xl">{service.title}</h3>
+              <p className="text-gray-600 text-lg">{service.description}</p>
+            </div>
+          ))}
+        </div>
+
+        {/* Rest of the services */}
         <div
           ref={ref}
           className={cn(
@@ -71,9 +99,12 @@ const Services = () => {
           )}
         >
           {services.map((service, index) => (
-            <div key={index} className="bg-white rounded-lg shadow-md p-6 text-center">
+            <div
+              key={index}
+              className="bg-white rounded-lg shadow-md p-6 text-center flex flex-col items-center"
+            >
               <div className="mb-4 flex justify-center">{service.icon}</div>
-              <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
+              <h3 className="font-semibold mb-2 text-xl">{service.title}</h3>
               <p className="text-gray-600">{service.description}</p>
             </div>
           ))}
