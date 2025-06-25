@@ -36,7 +36,7 @@ const testimonials = [
 		id: 2,
 		name: 'Ajay Shinde',
 		role: 'CEO, Shinde Logistics',
-		avatar: 'https://randomuser.me/api/portraits/thumb/men/75.jpg', 
+		avatar: 'https://videos.openai.com/vg-assets/assets%2Ftask_01jykcbdj3f6pa409vac0khwx3%2F1750849876_img_1.webp?st=2025-06-25T09%3A54%3A38Z&se=2025-07-01T10%3A54%3A38Z&sks=b&skt=2025-06-25T09%3A54%3A38Z&ske=2025-07-01T10%3A54%3A38Z&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skoid=aa5ddad1-c91a-4f0a-9aca-e20682cc8969&skv=2019-02-02&sv=2018-11-09&sr=b&sp=r&spr=https%2Chttp&sig=6yzOzE1V5XRwgybgDFeqRmYaPkU2Mkpy6WwJaARxtxk%3D&az=oaivgprodscus', 
     rating: 5,
 		content:
 			'Working with DNA has been a game-changer for our logistics business. Their targeted marketing strategies helped us connect with the right clients and expand our operations across multiple regions. Exceptional service and results!',
@@ -45,7 +45,7 @@ const testimonials = [
 		id: 3,
 		name: 'Sneha Joshi',
 		role: 'Brand Manager, Fashion Forward',
-		avatar: 'https://randomuser.me/api/portraits/women/15.jpg', // Indian-looking female
+		avatar: 'https://videos.openai.com/vg-assets/assets%2Ftask_01jykbzn2efb986kpt17chaa4g%2F1750849358_img_0.webp?st=2025-06-25T09%3A14%3A40Z&se=2025-07-01T10%3A14%3A40Z&sks=b&skt=2025-06-25T09%3A14%3A40Z&ske=2025-07-01T10%3A14%3A40Z&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skoid=aa5ddad1-c91a-4f0a-9aca-e20682cc8969&skv=2019-02-02&sv=2018-11-09&sr=b&sp=r&spr=https%2Chttp&sig=YW1VWqmIxY%2Fd2dfTKC2QaOcH%2Br1kAH3%2BfjgnWAtX2i8%3D&az=oaivgprodscus', // Indian-looking female
 		rating: 4,
 		content:
 			'The team at DNA truly understands the fashion industry. They connected us with the perfect influencers for our brand image and helped us navigate social media trends effectively.',
