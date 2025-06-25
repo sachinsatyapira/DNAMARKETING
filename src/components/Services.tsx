@@ -77,11 +77,12 @@ const Services = () => {
         </div>
 
         {/* Top 2 big services side by side */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-8">
           {topServices.map((service, idx) => (
             <div
               key={idx}
-              className="bg-white rounded-lg shadow-md p-10 text-center flex flex-col items-center text-2xl"
+              className="bg-white rounded-lg shadow-md p-10 text-center flex flex-col items-center text-2l transition-transform duration-300 hover:scale-100 hover:shadow-xl"
+              style={{ transition: 'box-shadow 0.3s, transform 0.3s' }}
             >
               <div className="mb-6">{service.icon}</div>
               <h3 className="font-semibold mb-2 text-3xl">{service.title}</h3>
@@ -94,14 +95,15 @@ const Services = () => {
         <div
           ref={ref}
           className={cn(
-            'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 transition-all duration-1000',
+            'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 transition-all duration-1000',
             inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           )}
         >
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-white rounded-lg shadow-md p-6 text-center flex flex-col items-center"
+              className="bg-white rounded-lg shadow-md p-6 text-center flex flex-col items-center transition-transform duration-500 hover:scale-115 hover:shadow-xl"
+              style={{ transition: 'box-shadow 0.4s, transform 0.4s' }}
             >
               <div className="mb-4 flex justify-center">{service.icon}</div>
               <h3 className="font-semibold mb-2 text-xl">{service.title}</h3>
