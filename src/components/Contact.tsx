@@ -7,11 +7,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Phone, Mail, MapPin } from 'lucide-react';
 
-const GOOGLE_FORM_ACTION_URL = "https://docs.google.com/forms/d/e/1FAIpQLSf0AtJIB8oBvsZF93aGH_QyGa6z-NorBHgk-h_sXASy8xUOsA/formResponse";
-const ENTRY_NAME = "entry.2005620554";
-const ENTRY_EMAIL = "entry.1045781291";
-const ENTRY_PHONE = "entry.1166974658";
-const ENTRY_MESSAGE = "entry.839337160";
+const SHEETDB_API_URL = "https://sheetdb.io/api/v1/rlj1o3hcdl4aj";
 
 const ContactForm = () => {
   const [name, setName] = useState('');
@@ -19,26 +15,31 @@ const ContactForm = () => {
   const [phone, setPhone] = useState('');
   const [message, setMessage] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [success, setSuccess] = useState(false);
   const { toast } = useToast();
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    const formData = new FormData();
-    formData.append(ENTRY_NAME, name);
-    formData.append(ENTRY_EMAIL, email);
-    formData.append(ENTRY_PHONE, phone);
-    formData.append(ENTRY_MESSAGE, message);
+    // SheetDB expects data as { data: [{ ... }] }
+    const payload = {
+      data: [
+        {
+          name,
+          email,
+          phone,
+          message,
+        },
+      ],
+    };
 
-    await fetch(GOOGLE_FORM_ACTION_URL, {
+    await fetch(SHEETDB_API_URL, {
       method: "POST",
-      mode: "no-cors",
-      body: formData,
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(payload),
     });
-
-    setSuccess(true); // Show success message
 
     toast({
       title: "Message Sent!",
@@ -80,15 +81,7 @@ const ContactForm = () => {
           <div className="bg-white rounded-lg shadow-lg p-8">
             <h3 className="text-2xl font-bold mb-6">Send Us a Message</h3>
             
-            <form
-              name="contact"
-              method="POST"
-              data-netlify="true"
-              onSubmit={handleSubmit}
-            >
-              {/* Netlify form hidden input */}
-              <input type="hidden" name="form-name" value="contact" />
-
+            <form onSubmit={handleSubmit}>
               <div className="grid grid-cols-1 gap-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
@@ -161,12 +154,6 @@ const ContactForm = () => {
                 >
                   {isSubmitting ? "Sending..." : "Send Message"}
                 </Button>
-
-                {success && (
-                  <p className="text-green-600 text-center mt-4">
-                    Thank you! Your message has been sent.
-                  </p>
-                )}
 
                 <p className="text-xs text-gray-500 text-center">
                   By submitting this form, you agree to our Privacy Policy and Terms of Service.
