@@ -19,6 +19,7 @@ const ContactForm = () => {
   const [phone, setPhone] = useState('');
   const [message, setMessage] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [success, setSuccess] = useState(false);
   const { toast } = useToast();
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -36,6 +37,8 @@ const ContactForm = () => {
       mode: "no-cors",
       body: formData,
     });
+
+    setSuccess(true); // Show success message
 
     toast({
       title: "Message Sent!",
@@ -158,6 +161,12 @@ const ContactForm = () => {
                 >
                   {isSubmitting ? "Sending..." : "Send Message"}
                 </Button>
+
+                {success && (
+                  <p className="text-green-600 text-center mt-4">
+                    Thank you! Your message has been sent.
+                  </p>
+                )}
 
                 <p className="text-xs text-gray-500 text-center">
                   By submitting this form, you agree to our Privacy Policy and Terms of Service.
