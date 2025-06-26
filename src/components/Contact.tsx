@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { useInView } from 'react-intersection-observer';
 import { cn } from '@/lib/utils';
@@ -8,6 +7,12 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Phone, Mail, MapPin } from 'lucide-react';
 
+const GOOGLE_FORM_ACTION_URL = "https://docs.google.com/forms/d/e/1FAIpQLSf0AtJIB8oBvsZF93aGH_QyGa6z-NorBHgk-h_sXASy8xUOsA/formResponse";
+const ENTRY_NAME = "entry.2005620554";
+const ENTRY_EMAIL = "entry.1045781291";
+const ENTRY_PHONE = "entry.1166974658";
+const ENTRY_MESSAGE = "entry.839337160";
+
 const ContactForm = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -16,9 +21,21 @@ const ContactForm = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
+
+    const formData = new FormData();
+    formData.append(ENTRY_NAME, name);
+    formData.append(ENTRY_EMAIL, email);
+    formData.append(ENTRY_PHONE, phone);
+    formData.append(ENTRY_MESSAGE, message);
+
+    await fetch(GOOGLE_FORM_ACTION_URL, {
+      method: "POST",
+      mode: "no-cors",
+      body: formData,
+    });
 
     toast({
       title: "Message Sent!",
