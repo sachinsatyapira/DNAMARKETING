@@ -96,7 +96,7 @@ const AboutSection = () => {
                 <div className="absolute -right-4 -bottom-4 w-32 h-32 bg-DNA-blue/10 rounded-lg"></div>
                 <div className="relative z-10 rounded-lg overflow-hidden shadow-xl">
                   <img 
-                    src="/lovable-uploads/urban-traffic-with-cityscape.jpg" 
+                    src="/lovable-uploads/About.jpg" 
                     alt="DNA Team" 
                     className="w-full h-auto"
                   />

@@ -52,7 +52,7 @@ const Footer = () => {
               <a href="tel:+918668258845" className="w-10 h-10 rounded-full bg-gray-800 hover:bg-DNA-blue transition-colors flex items-center justify-center">
                 <Phone size={18} />
               </a>
-              <a href="mailto:kunaldubey6969@gmail.com" className="w-10 h-10 rounded-full bg-gray-800 hover:bg-DNA-blue transition-colors flex items-center justify-center">
+              <a href="mailto:dnamarketingpune@gmail.com" className="w-10 h-10 rounded-full bg-gray-800 hover:bg-DNA-blue transition-colors flex items-center justify-center">
                 <Mail size={18} />
               </a>
               <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-gray-800 hover:bg-DNA-blue transition-colors flex items-center justify-center">
@@ -86,15 +86,15 @@ const Footer = () => {
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2 mt-0.5 text-DNA-blue" viewBox="0 0 20 20" fill="currentColor">
                   <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                 </svg>
-                <span>Pune, Maharashtra<br />412101, India</span>
+                <span>19/2, HINJEWADI WAKAD ROAD, Hinjewadi, Pune, Maharashtra<br />412101, India</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-2 text-DNA-blue" />
-                <span>+91 866 825 8845</span>
+                <span>+91 966 515 4378</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-2 text-DNA-blue" />
-                <span>kunaldubey6969@gmail.com</span>
+                <span>dnamarketingpune@gmail.com</span>
               </li>
             </ul>
           </div>

@@ -16,7 +16,7 @@ const testimonials = [
 	},
 	{
 		id: 1,
-		name: 'Amol Patil',
+		name: 'Anmol Patil',
 		role: 'Owner, Patil Footwear',
 		avatar: 'https://randomuser.me/api/portraits/men/66.jpg', // Indian-looking male
 		rating: 5,
@@ -54,7 +54,7 @@ const testimonials = [
 		id: 6,
 		name: 'Sunita Kulkarni',
 		role: 'Marketing Head - Golden Square Mall',
-		avatar: 'https://randomuser.me/api/portraits/women/18.jpg', // Indian-looking female
+		avatar: 'https://randomuser.me/api/portraits/women/18.jpg', 
 		rating: 5,
 		content:
 			"DNA's digital marketing expertise has transformed our online presence completely. Their strategic approach helped us reach a wider audience and increased our sales by 35% in just two months. Truly impressed with their professionalism!",

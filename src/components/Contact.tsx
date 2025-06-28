@@ -123,7 +123,7 @@ const ContactForm = () => {
                     id="phone"
                     name="phone"
                     type="tel"
-                    placeholder="+91 98765 43210"
+                    placeholder="+91 9665154378"
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
                     required
@@ -174,9 +174,9 @@ const ContactForm = () => {
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold">Phone</h4>
-                    <p className="text-gray-600">+91 866 825 8845</p>
+                    <p className="text-gray-600">+91 966 515 4378</p>
                     <a 
-                      href="tel:+918668258845" 
+                      href="tel:+919665154378" 
                       className="text-DNA-blue hover:underline mt-1 inline-block"
                     >
                       Call Us
@@ -190,9 +190,9 @@ const ContactForm = () => {
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold">Email</h4>
-                    <p className="text-gray-600">kunaldubey6969@gmail.com</p>
+                    <p className="text-gray-600">dnamarketingpune@gmail.com</p>
                     <a 
-                      href="mailto:kunaldubey6969@gmail.com" 
+                      href="mailto:dnamarketingpune@gmail.com" 
                       className="text-DNA-blue hover:underline mt-1 inline-block"
                     >
                       Email Us
@@ -206,7 +206,7 @@ const ContactForm = () => {
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold">Address</h4>
-                    <p className="text-gray-600">Pune, Maharashtra</p>
+                    <p className="text-gray-600">2nd floor, 19/2, HINJEWADI WAKAD ROAD, Hinjewadi, Pune, Maharashtra</p>
                     <p className="text-gray-600">412101, India</p>
                   </div>
                 </div>

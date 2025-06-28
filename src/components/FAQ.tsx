@@ -15,21 +15,33 @@ const faqCategories = [
     questions: [
       {
         question: "What makes DNA Das and Associates different from other digital marketing agencies?",
-        answer: "Wespecialize exclusively in real estate marketing. Our team understands the unique challenges, buyerbehavior, and market dynamics of the real estate industry. This specialization allows us to create more effective, targeted campaigns that deliver better results for builders, brokers, and developers."
+        answer: "Unlike general agencies, DNA Das and Associates focuses exclusively on real estate. We craft packages that are industry-specific and results-driven, helping clients get more value from every rupee they invest."
       },
       {
         question: "How long does it take to see results from digital marketing efforts?",
-        answer: `Results vary depending on
- the service and market conditions. PPC campaigns can generate leads within days, while SEO typically
- shows significant results in 3-6 months. Social media marketing builds momentum over 2-3 months. We
- provide detailed timelines during our initial consultation based on your specific goals`
+        answer: "Digital marketing results depend on the chosen package. SEO can take 3–6 months, while PPC and social media campaigns may show leads in a few days to weeks. We define timelines clearly in each package."
       },
       {
         question: "Do you work with small real estate brokers or only large developers?",
-        answer: ` We work with real estate
- professionals of all sizes - from individual brokers to large development companies. Our strategies are
- scalable and can be customized to fit different budgets and business objectives`
+        answer: "Our pricing and packages are flexible. We support everyone from solo agents to big real estate firms by tailoring solutions based on their budget and growth stage."
+      },
+      {
+        question: "Are your digital marketing packages customizable?",
+        answer: "Absolutely. We understand that every real estate business has different goals, so we offer fully customizable packages based on your specific requirements, property type, and target market."
+      },
+      {
+        question: "What services are included in your basic package?",
+        answer: "Our basic package typically includes SEO setup, Google My Business optimization, 2 social media platforms, ad management for lead generation, and monthly reporting. Custom elements can be added as needed."
+      },
+      {
+        question: "Is there a minimum contract period for your packages?",
+        answer: "Yes. To ensure we deliver sustainable results, we recommend a minimum 3-month engagement. However, we also offer flexible plans based on campaign type and urgency."
+      },
+      {
+        question: "Do you charge separately for ad spend?",
+        answer: "Yes. Our package pricing covers strategy, creative, and management services. Ad spend (on platforms like Meta, Google, etc.) is billed separately as per your approved monthly media budget."
       }
+    
     ]
   },
   {
@@ -38,24 +50,15 @@ const faqCategories = [
     questions: [
       {
         question: "What's included in your SEO service for real estate?",
-        answer: `Our real estate SEO includes local search
- optimization, property listing optimization, content creation, technical SEO, Google My Business
- optimization, review management, competitor analysis, and detailed monthly reporting with rankings and
- traffic data.`
+        answer: "Our SEO process involves local listing optimization, keyword-targeted content, technical audits, backlink strategies, Google My Business setup, and regular performance reviews tailored for real estate."
       },
       {
-        question: "Can you help with both residential and commercial real estate marketing? ",
-        answer: ` Absolutely! We have
- extensive experience marketing both residential projects (apartments, villas, townships) and commercial
- properties (offices, retail spaces, warehouses). Our strategies are tailored to the specific audience and
- sales cycle of each property type.`
+        question: "Can you help with both residential and commercial real estate marketing?",
+        answer: "Yes, our process is adapted to both segments. We understand the buying journey of a homebuyer versus a commercial investor and design separate funnels accordingly."
       },
       {
         question: "How do you measure the success of marketing campaigns?",
-        answer: `We track comprehensive KPIs
- including website traffic, lead generation, cost per lead, conversion rates, search rankings, social media
- engagement, email open rates, and ultimately, sales attribution. You'll receive detailed monthly reports
- with actionable insights.`
+        answer: "Our process includes detailed KPI tracking—such as cost per lead, quality of leads, engagement rates, and conversions—to measure campaign performance and optimize continuously."
       }
     ]
   },
@@ -64,29 +67,21 @@ const faqCategories = [
     title: "Timeframes & Results",
     questions: [
       {
-        question: " Do you provide website development services?",
-        answer: `Yes, we create modern, mobile-responsive
- websites specifically designed for real estate businesses. Our websites include property showcases, lead
- capture forms, search functionality, virtual tour integration, and are optimized for both user experience
- and search engines`
+        question: "Do you provide website development services?",
+        answer: "Yes. Our real estate websites are launched within 2–4 weeks and are built to drive results—with lead forms, virtual tours, property search filters, and SEO best practices."
       },
       {
         question: "What social media platforms do you recommend for real estate marketing?",
-        answer: `We typically
- recommend Facebook and Instagram for visual property showcases and community building, LinkedIn for
-B2B networking and commercial properties, YouTube for property videos and virtual tours, and
- WhatsApp Business for direct customer communication.`
+        answer: "To maximize results, we focus on platforms where your audience spends time: Facebook and Instagram for visuals, YouTube for property tours, LinkedIn for commercial reach, and WhatsApp for direct queries."
       },
       {
-        question: " How much should I budget for real estate digital marketing?",
-        answer: ` Marketing budgets vary based on
- project size, market competition, and business goals. We offer packages starting from ₹50,000 per month
- for comprehensive digital marketing services. During our consultation, we'll recommend a budget that
- aligns with your objectives and expected ROI`
+        question: "How much should I budget for real estate digital marketing?",
+        answer: "Results depend on the consistency of investment. For a decent return, we recommend a minimum monthly budget of ₹50,000, which includes ads, creatives, and strategy execution tailored to your goals."
       }
     ]
   }
 ];
+
 
 const FAQ = () => {
   const { ref, inView } = useInView({
