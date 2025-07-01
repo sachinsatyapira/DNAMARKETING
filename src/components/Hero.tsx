@@ -14,7 +14,7 @@ const carouselItems = [
     id: 2,
     title: "Next-Generation Real-estate Marketing",
     subtitle: "Empowering Real Estate Brands Through Smart Technology and Strategy",
-    backgroundUrl: "/lovable-uploads/door-opening-revealing-beautiful-city.jpg"
+    backgroundUrl: "/lovable-uploads/opening.jpg"
   },
   {
     id: 3,
