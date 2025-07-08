@@ -30,7 +30,7 @@ const AboutSection = () => {
             <div className="order-2 lg:order-1">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">About DNA</h2>
               <p className="text-lg text-gray-700 mb-4">
-                 DNA Das and Associates is your dedicated digital marketing partner in the real estate industry. We
+                 DNA is your dedicated digital marketing partner in the real estate industry. We
  understand the unique challenges builders, brokers, and developers face in today's competitive market.
  Our specialized approach combines industry expertise with cutting-edge digital strategies to drive
  qualified leads, increase brand visibility, and accelerate sales.

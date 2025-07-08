@@ -14,8 +14,8 @@ const faqCategories = [
     title: "Pricing & Packages",
     questions: [
       {
-        question: "What makes DNA Das and Associates different from other digital marketing agencies?",
-        answer: "Unlike general agencies, DNA Das and Associates focuses exclusively on real estate. We craft packages that are industry-specific and results-driven, helping clients get more value from every rupee they invest."
+        question: "What makes DNA different from other digital marketing agencies?",
+        answer: "Unlike general agencies, DNA focuses exclusively on real estate. We craft packages that are industry-specific and results-driven, helping clients get more value from every rupee they invest."
       },
       {
         question: "How long does it take to see results from digital marketing efforts?",

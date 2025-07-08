@@ -37,7 +37,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center mb-6">
               <img 
-                src="/lovable-uploads/1-removebg-preview.png" 
+                src="public/lovable-uploads/Footer-Logo.png" 
                 alt="DNA Logo" 
                 className="h-30 w-auto mr-3 drop-shadow-md"
               />
