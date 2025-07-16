@@ -146,17 +146,16 @@ const AboutSection = () => {
 				<div className={`flex-1 flex flex-col justify-center px-6 md:px-16 py-10 bg-white transition-all duration-700 ${animatePreksha ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-16'}`}>
 					<div className="mb-0">
 						<h2 className="text-blue-500 text-3xl md:text-4xl font-bold text-center md:text-left mb-2">
-							Mrs. Preksha Sharma
+							Director
 						</h2>
 						<h1 className="text-[#F9D976] text-4xl md:text-5xl font-bold text-center md:text-left mb-4">
-							Founder and Director
+							Mrs. Preksha Sharma
 						</h1>
 					</div>
 					<div className="bg-white rounded-xl shadow p-6 md:p-4">
 						<p className="text-[#222] mb-2 text-justify">
 							<span className="font-bold text-xl text-blue-700"></span>Mrs. Preksha Sharma
-is recognized as a trusted leader in the Indian Digital Marketing landscape with extensive experience spanning over a decade. Her visionary approach has established the foundations to make marketing more effective and accessible through innovative digital strategies. DNA Marketing Services brings together a team of skilled digital marketing specialists offering comprehensive solutions for businesses. 
-						</p>
+								is recognized as a trusted leader in the Indian Digital Marketing landscape with extensive experience spanning over a decade. Her visionary approach, strong management background, and deep expertise in real estate and marketing have established the foundations to make marketing more effective and accessible through innovative digital strategies. DNA Marketing Services brings together a team of skilled digital marketing specialists offering comprehensive solutions for businesses.						</p>
 						<p className="text-[#222] text-justify">
 							Under the leadership of our Founder, we have successfully positioned ourselves as the Best Digital Marketing Agency in Pune by delivering exceptional results in lead generation, brand visibility, and client engagement. We have set new benchmarks in the industry with our data-driven approach and commitment to maximizing ROI for every projects.
 						</p>
@@ -168,22 +167,22 @@ is recognized as a trusted leader in the Indian Digital Marketing landscape with
 				className="w-[95vw] max-w-[1600px] rounded-2xl overflow-hidden flex flex-col md:flex-row shadow-2xl mb-10"
 				style={{
 					background:
-						'linear-gradient(90deg, #d3ac36ff 0%, #e8bb35ff 20%, #fff 20%, #fff 100%)',
+						'linear-gradient(90deg, #d3ac36ff 0%, rgba(232, 187, 53, 1) 20%, #fff 20%, #fff 100%)',
 				}}
 			>
 				{/* Left: Content */}
 				<div className={`flex-1 flex flex-col justify-center px-6 md:px-16 py-10 bg-white order-2 md:order-1 transition-all duration-700 ${animateKrishna ? 'opacity-100 -translate-x-0' : 'opacity-0 translate-x-16'}`}>
 					<div className="mb-0">
 						<h2 className="text-blue-500 text-3xl md:text-4xl font-bold text-center md:text-left mb-2">
-							Krishna Kant Yadav
+							CEO
 						</h2>
 						<h1 className="text-[#F9D976] text-4xl md:text-5xl font-bold text-center md:text-left mb-2">
-							CEO Of DNA marketing Services
+							Krishna Kant Yadav
 						</h1>
 					</div>
 					<div className="bg-white rounded-xl shadow p-6 md:p-5">
 						<p className="text-[#222] mb-2 text-justify">
-							<span className="font-bold text-xl text-blue-700"></span>Mr. Krishna Kant Yadav is a highly accomplished professional with over 15 years of experience in sales, marketing, and financial leadership. His journey includes impactful roles across sectors, notably as CFO at Kaineel Realty in Pune and previously at Safal Steel, a leading steel fabricator based in Cato Ridge, South Africa. His global exposure has sharpened his strategic thinking and ability to adapt in dynamic markets. Krishna Sir stands out for his sharp financial acumen, deep market insight, and people-first leadership. His proven ability to drive sustainable growth and deliver measurable results makes him a standout figure in both real estate and industrial sectors.
+							<span className="font-bold text-xl text-blue-700"></span>Mr. Krishna Kant Yadav is a highly accomplished professional with over 17 years of experience in sales, marketing, and financial leadership. His journey includes impactful roles across sectors, notably as CFO at Kaineel Realty in Pune and previously at Safal Steel, a leading steel fabricator based in Cato Ridge, South Africa. With deep experience in the manufacturing industry and as a Six Sigma Black Belt holder, his global exposure has sharpened his strategic thinking and ability to adapt in dynamic markets. Krishna Sir stands out for his sharp financial acumen, deep market insight, and people-first leadership. His proven ability to drive sustainable growth and deliver measurable results makes him a standout figure in both real estate and industrial sectors.
 						</p>
 					</div>
 				</div>
@@ -222,7 +221,7 @@ is recognized as a trusted leader in the Indian Digital Marketing landscape with
 							<p className="text-blue-500 font-semibold mb-3 text-left text-xl">
 								Finance and Legal advisor
 							</p>
-							<p className="text-gray-700 text-left text-lg text-justify">
+							<p className="text-gray-700 text-left text-lg">
 								Drives innovative marketing strategies and brand growth initiatives to maximize client success and market reach.
 							</p>
 						</div>
