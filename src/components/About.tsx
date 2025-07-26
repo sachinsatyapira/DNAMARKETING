@@ -56,6 +56,9 @@ const AboutSection = () => {
 	return (
 		<section
 			id="about"
+			aria-label="About DNA Marketing Services"
+			itemScope
+			itemType="http://schema.org/Organization"
 			className="py-10 min-h-screen flex flex-col items-center justify-center"
 			style={{ background: '#edededff' }}
 		>
@@ -63,9 +66,9 @@ const AboutSection = () => {
 			<div className="w-[95vw] max-w-[1600px] mx-auto flex flex-col md:flex-row items-center bg-white rounded-2xl shadow-2xl p-10 mb-12">
 				{/* Left: Text Content */}
 				<div className="flex-1 pr-0 md:pr-12">
-					<h2 className="text-4xl font-bold mb-6 text-[#111]">About DNA</h2>
-					<p className="text-lg text-gray-700 mb-6 text-justify">
-						DNA is your dedicated digital marketing partner. We understand the unique challenges builders, brokers, and developers face in today's competitive market. Our specialized approach combines industry expertise with cutting-edge digital strategies to drive qualified leads, increase brand visibility, and accelerate sales.
+					<h2 className="text-4xl font-bold mb-6 text-[#111]" itemProp="name">About DNA Marketing Services</h2>
+					<p className="text-lg text-gray-700 mb-6 text-justify" itemProp="description">
+						DNA Marketing Services is your dedicated digital marketing partner. We understand the unique challenges builders, brokers, and developers face in today's competitive market. Our specialized approach combines industry expertise with cutting-edge digital strategies to drive qualified leads, increase brand visibility, and accelerate sales.
 					</p>
 					<p className="text-lg text-gray-700 mb-8 text-justify">
 						With years of experience exclusively serving the sector, we've helped hundreds of projects achieve remarkable growth through targeted digital campaigns. From luxury residential developments to commercial complexes, we know what works in marketing.
